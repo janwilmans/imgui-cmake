@@ -1,5 +1,6 @@
 #include "IMGUIApplication.h"
 
+
 int main()
 {
     auto demo = [] (IMGUIApplication & application) {
@@ -35,7 +36,7 @@ int main()
 
     };
 
-    IMGUIApplication application([&] (IMGUIApplication & application) {
+    IMGUIApplication application([&demo] (IMGUIApplication & application) {
 
         demo(application);
     });

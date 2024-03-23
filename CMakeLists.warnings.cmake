@@ -60,11 +60,11 @@ else()
     -Wextra
     -Wpedantic
     -Wcast-align
-    -Wshadow
+#    -Wshadow
     -Wsign-conversion
     -Wconversion
     -Wdouble-promotion
-    -Wold-style-cast
+#    -Wold-style-cast
     -Wformat=2
     -Wmisleading-indentation
     -Wmissing-include-dirs

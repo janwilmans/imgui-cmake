@@ -7,8 +7,8 @@ add_executable(DemoApplication
 
 target_link_libraries(DemoApplication
    PRIVATE
-      #project::warnings_options
-      # project::warning_suppressions
+      project::warnings_options
+      project::warning_suppressions
       imgui::demo
       imgui::imgui
 )

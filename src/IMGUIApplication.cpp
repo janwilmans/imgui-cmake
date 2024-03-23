@@ -84,6 +84,7 @@ IMGUIApplication::IMGUIApplication(UpdateFunction update ): m_update(update)
     //IM_ASSERT(font != nullptr);
 }
 
+
 int IMGUIApplication::Run()
 {
     // Main loop
